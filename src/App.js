@@ -3,10 +3,9 @@ import Button from '@material/react-button';
 import TextField, {HelperText, Input} from '@material/react-text-field';
 import Radio, {NativeRadioControl} from '@material/react-radio';
 import {Cell, Grid, Row} from '@material/react-layout-grid';
+
 import './app.scss';
 
-const slider = new MDCSlider(document.querySelector('.mdc-slider'));
-slider.listen('MDCSlider:change', () => console.log(`Value changed to ${slider.value}`));
 
 class App extends Component {
 
